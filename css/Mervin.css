@@ -3,156 +3,20 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 {
 	margin: 0;
 	padding: 0;
-	font-size: 100%;
 }
 
-@font-face {
-	font-family: 'Conv_HelveticaNeueLTPro-BdCn';
-	src: url('fonts/HelveticaNeueLTPro-BdCn.eot');
-	src: local('☺'), url('fonts/HelveticaNeueLTPro-BdCn.woff') format('woff'), url('fonts/HelveticaNeueLTPro-BdCn.ttf') format('truetype'), url('fonts/HelveticaNeueLTPro-BdCn.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-@font-face {
-	font-family: 'FSEX300';
-	src: url('fonts/FSEX300.eot');
-	src: local('☺'), url('fonts/FSEX300.woff') format('woff'), url('fonts/FSEX300.ttf') format('truetype'), url('fonts/FSEX300.svg#Fixedsys') format('svg'), url('fonts/FSEX300.eot?#iefix') format('embedded-opentype');;
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lato-Regular';
-  src: url('fonts/Lato-Regular.eot');
-  src: url('fonts/Lato-Regular.woff2') format('woff2'),
-       url('fonts/Lato-Regular.woff') format('woff'),
-       url('fonts/Lato-Regular.ttf') format('truetype'),
-       url('fonts/Lato-Regular.svg#Lato-Regular') format('svg'),
-       url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
- img{
- 	max-width: 100%;
- }
- .rec-photo
-	 {
-	 	position: relative;
-	 	width: 96px;
-/*	 	height: 86px;*/
-	 	top: 15px;
-	 	left: 40px;
-	 }
-.rec-xx
-	{
-		/* position:absolute;*/
-    	 width:100%;
-		 border-bottom:4px solid #000;
-    	 transform:rotate(-45deg);
-	}
- .home-photo
- 	{
- 		width: 1280px;
- 		margin: 100px auto 0 auto ;
- 	}
-.home-photo 
-	img {
-
-		width: 430px;
-		height: 300px;
-		padding: 0 0 0 73px;
-		}
-.rectangle
-		{
-			width: 260px;
-			height: 121px;
-			margin: 5px 32px 0 0;
-			border: 6px solid #000;
-			float: right;
-			clear:both;		
-		}	
-.rectangle
-	p    {
-		    font-family:'Conv_HelveticaNeueLTPro-BdCn',Sans-Serif;
-			margin: 25px 24px 0 0;
-			float: right;
-			font-size:36px;
-		/*	text-align:center;*/
-		 }	
-.txt-bottom
-		{
-			font-family: 'Conv_HelveticaNeueLTPro-BdCn';
-			font-size:36px;
-			width: 1280px;
-			height: 27px;
-		    padding-right: 20px;
-		    padding-left: 20px;
-		    margin-right: auto;
-		    margin-left: auto;
-		    clear:both;	
-		}	
-
-.img-div
-		{	
-			position: relative;
-			width: 1160px;
-			/*height: 240px;*/
-		    padding-right: 20px;
-		    padding-left: 20px;
-		    margin-right: auto;
-		    margin-left: auto;
-		    top: 90px;
-		}
-.img-home1
-		{	position:absolute;
-		/*	float: right;*/
-			width: 10px;
-			height: 233px;
-			right: 3%;
-			top: 60%;
-		}			
-.img-div h1
-		{	position:absolute;
-		/*	float: right;*/
-			top: 50%;
-			writing-mode: vertical-rl;
-			font-size: 36px;
-			font-family: 'Lato-Regular';
-			margin-top: 122px;
-			
-		}
 #nav 
 	{
 		background:#ffffff;
-		width:100% ;
+		width:960px;
 		height:100px;
 		margin:0 auto;
 	}
-.inner {
-
-    width: 1280px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-right: auto;
-    margin-left: auto;
-
-	}	
- .logo {
-    height: 56px;
-    width: 60px;
-    margin: 20px 0px;
-    	display: inline-block;
-     float: left;
-  }
-	
 #nav-content
 	{
 		background:;
 		height:100px;
-		width: auto;
+		width: 960px;
 		margin:0 auto;
 	}
 #nav-content ul
@@ -167,7 +31,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 		height:100px;
 		margin:0;
 		padding:0 20px;
-		float:right;
+		float:left;
 		list-style:none;
 		line-height:100px;
 		color:#ffffff
@@ -184,18 +48,10 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 #back1
 	{	float: left;
 		width:100%;
-		/*overflow:auto;*/
+		overflow:auto;
 		background:#ffffff;
-	/*	border-bottom:1px solid #d7d7d7;*/
+		border-bottom:1px solid #d7d7d7;
 	}
-#back1 img
-	{	float: left;
-		width:100%;
-	}
-/*#back1 p
-	{
-		font-size: 2em;
-	}*/
 #back2
 	{	
 		float: left;
@@ -298,7 +154,6 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 */
 section.calc-method p
 {
-	 font-family:'FSEX300',Sans-Serif;
 	 font-size: 36px;
 	 color: #444444;
 	 line-height: 1.5em;
@@ -310,25 +165,8 @@ section.calc-method
   width: 560px;
   margin: 0 auto;
   box-sizing: content-box;
-  padding: 50px  calc(50% - 350px) 20px;
+  padding: 50px calc(50% - 350px);
 }
-@media screen and (min-width: 960px) and (max-width: 1240px) 
-	{
-		.inner{
-			width: 100%;
-		padding-right: 0;
-    	padding-left: 0;
-
-		}
-	}
-@media screen and (min-width: 680px) and (max-width: 960px) 
-	{
-		.inner{
-			width: 100%;
-		padding-right: 0;
-    	padding-left: 0;
-		}
-	}
 @media (max-width: 800px) {
   section.calc-method {
     width: 100%;
