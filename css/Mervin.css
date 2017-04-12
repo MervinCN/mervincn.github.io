@@ -119,6 +119,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 		/*	float: right;*/
 			top: 50%;
 			writing-mode: vertical-rl;
+			-webkit-writing-mode: vertical-rl;      
 			font-size: 36px;
 			font-family: 'Lato-Regular';
 			margin-top: 122px;
